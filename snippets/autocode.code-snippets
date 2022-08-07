@@ -5,5 +5,12 @@
       "const lib = require(`lib`)({ token: process.env.STDLIB_SECRET_TOKEN });"
     ],
     "description": "Default lib variable"
+  },
+  "module exports": {
+    "prefix": "module.exports",
+    "body": ["module.exports = async (${1:args}) => {",
+     "\t$0",
+      "};"],
+    "description": "export a module"
   }
 }

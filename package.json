@@ -19,7 +19,11 @@
     "snippets": [
       {
         "language": "javascript",
-        "path": "./snippets/snippets.code-snippets"
+        "path": "./snippets/autocode.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/discord.code-snippets"
       }
     ]
   }

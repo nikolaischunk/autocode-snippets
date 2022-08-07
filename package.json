@@ -4,6 +4,11 @@
   "description": "A collection of snippets to improve the workflow with Autocode and visualstudio",
   "version": "0.0.1",
   "publisher": "nikolaischunk",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikolaischunk/autocode-snippets"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.70.0"
   },

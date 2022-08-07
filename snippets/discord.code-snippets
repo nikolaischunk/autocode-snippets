@@ -1,0 +1,12 @@
+{
+  "Send a message": {
+    "prefix": "discord.send_message",
+    "body": [
+      "await lib.discord.channels['@release'].messages.create({",
+      "\tchannel_id: `${${2:context.params.event.channel_id}}`,",
+      "\tcontent: `${1:hello world}`",
+      "});"
+    ],
+    "description": "Send a message to a channel with the given content"
+  }
+}

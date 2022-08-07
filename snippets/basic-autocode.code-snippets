@@ -1,0 +1,9 @@
+{
+  "lib": {
+    "prefix": "lib",
+    "body": [
+      "const lib = require(`lib`)({ token: process.env.STDLIB_SECRET_TOKEN });"
+    ],
+    "description": "Default lib variable"
+  }
+}

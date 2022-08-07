@@ -2,6 +2,11 @@
 
 This is the README for your extension "autocode-snippets". After writing up a brief description, we recommend including the following sections.
 
+## Resources
+
+- https://github.com/microsoft/vscode-extension-samples/blob/main/completions-sample/src/extension.ts
+- https://code.visualstudio.com/api/working-with-extensions/publishing-extension
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

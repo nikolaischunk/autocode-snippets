@@ -1,8 +1,9 @@
 {
   "name": "autocode-snippets",
   "displayName": "autocode-snippets",
-  "description": "A collection of snippets to improve the workflow with autocode and visualstudio",
+  "description": "A collection of snippets to improve the workflow with Autocode and visualstudio",
   "version": "0.0.1",
+  "publisher": "nikolaischunk",
   "engines": {
     "vscode": "^1.70.0"
   },

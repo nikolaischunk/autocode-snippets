@@ -4,6 +4,10 @@ All notable changes to the "autocode-snippets" extension will be documented in t
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.1
+
+- Initial release of autocode-snippets
+
 ## [Unreleased]
 
 - Initial release

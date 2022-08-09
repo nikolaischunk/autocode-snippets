@@ -4,7 +4,7 @@
     "body": [
       "await lib.discord.guilds['@release'].members.retrieve({",
       "\tuser_id: `${${1:context.params.event.member.user.id}}`,",
-      "\tguild_id: `${2:context.params.event.guild_id}`,",
+      "\tguild_id: `${${2:context.params.event.guild_id}}`,",
       "});"
     ],
     "description": "Returns a guild member object for the specified user."

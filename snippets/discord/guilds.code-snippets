@@ -8,5 +8,15 @@
       "});"
     ],
     "description": "Returns a guild member object for the specified user."
+  },
+  "Retrieve guild information": {
+    "prefix": "discord.guilds.retrieve",
+    "body": [
+      "await lib.discord.guilds['@release'].retrieve({",
+      "\tguild_id: `${${1:context.params.event.guild_id}}`,",
+      "\twith_counts: ${2:false},",
+      "});"
+    ],
+    "description": "Returns the guild object for the given id."
   }
 }

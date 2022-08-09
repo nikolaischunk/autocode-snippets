@@ -23,7 +23,11 @@
       },
       {
         "language": "javascript",
-        "path": "./snippets/discord.code-snippets"
+        "path": "./snippets//channels.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/discord/guilds.code-snippets"
       }
     ]
   }

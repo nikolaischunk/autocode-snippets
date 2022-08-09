@@ -1,6 +1,6 @@
 {
   "Send a message": {
-    "prefix": "discord.send_message",
+    "prefix": "discord.messages.create",
     "body": [
       "await lib.discord.channels['@release'].messages.create({",
       "\tchannel_id: `${${2:context.params.event.channel_id}}`,",

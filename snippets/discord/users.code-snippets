@@ -1,0 +1,11 @@
+{
+  "Retrieve User Information": {
+    "prefix": "discord.users.retrieve",
+    "body": [
+      "await lib.discord.users['@release'].retrieve({",
+      "\tuser_id: `${${1:context.params.event.member.user.id}}`,",
+      "});"
+    ],
+    "description": "Returns a user object for a given user ID."
+  }
+}

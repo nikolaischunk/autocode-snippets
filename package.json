@@ -28,6 +28,10 @@
       {
         "language": "javascript",
         "path": "./snippets/discord/guilds.code-snippets"
+      },
+      {
+        "language": "javascript",
+        "path": "./snippets/discord/users.code-snippets"
       }
     ]
   }

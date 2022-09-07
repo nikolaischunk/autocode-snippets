@@ -8,10 +8,17 @@
   },
   "module exports": {
     "prefix": "module.exports",
-    "body": ["module.exports = async (${1:args}) => {",
-     "\t$0",
-      "};"],
+    "body": ["module.exports = async (${1:args}) => {", "\t$0", "};"],
     "description": "export a module"
+  },
+  "console warn": {
+    "prefix": "clw",
+    "body": ["console.warn(${1:});"],
+    "description": "console.warn"
+  },
+  "console log": {
+    "prefix": "clg",
+    "body": ["console.log(${1:});"],
+    "description": "console.warn"
   }
 }
-  
